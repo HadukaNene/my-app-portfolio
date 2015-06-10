@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="88dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#BBDEFB"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight=".8"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/h1_view"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/spotify_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:onClick="spotyToast"
+        android:text="spotify streamer" />
+
+    <Button
+        android:id="@+id/scores_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:onClick="scoresToast"
+        android:text="scores app" />
+
+    <Button
+        android:id="@+id/library_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:onClick="libToast"
+        android:text="library app" />
+
+    <Button
+        android:id="@+id/build_it_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:onClick="buildItToast"
+        android:text="build it bigger!" />
+
+    <Button
+        android:id="@+id/xyz_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:onClick="xyzToast"
+        android:text="xyz reader" />
+
+    <Button
+        android:id="@+id/capstone_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#E91E63"
+        android:onClick="capstoneToast"
+        android:padding="0dp"
+        android:layout_margin="0dp"
+        android:text="capstone:" />
+
+</LinearLayout>
